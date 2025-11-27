@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+import bg from "../assets/images/blaaa.jpg";
 const Home: React.FC = (): React.ReactElement => {
   const [navbar, setNavbar] = useState(false);
   return (
@@ -103,7 +104,7 @@ const Home: React.FC = (): React.ReactElement => {
           <article className="relative">
             <article className="w-full h-80 md:h-[420px] bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl shadow-inner flex items-center justify-center">
               <Image
-                src={`${process.env.NEXT_PUBLIC_FRONTEND_HOST}/blaaa.jpg`}
+                src={bg}
                 fill
                 alt="fitness app preview"
                 className="object-cover rounded-xl shadow-lg scale-x-[-1]"
