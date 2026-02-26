@@ -1,3 +1,6 @@
+# Starting : 14/12, 11:30AM
+
+
 # SetUp
 1. node module folder will be deleted while submission.
 2. Their will package.json file
@@ -7,8 +10,9 @@
 
 # Description
 As the motto of this project was to design landing page, which will having several components like Features, Pricing, testimonials.
-For component and its content design I have used vercel v0, which helps me to complete the landing page within 30min.
+For component.
 
 # Links
-Github : https://github.com/harrysingh17022552/fitlight
 VErcel : https://fitlight.vercel.app/
+
+# Ending : 14/12, 12:25AM
